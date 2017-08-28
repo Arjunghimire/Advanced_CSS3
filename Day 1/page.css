@@ -1,0 +1,55 @@
+/* Arjun Ghimire (Senior Software Designer & Developer at Lumbini Technology) */
+
+/* css property for rotate class */
+
+.rotate{
+	width: 100px;
+	height: 100px;
+	margin: 20px 20px;
+	background-color: teal;
+}
+.rotate:hover{
+	transform: rotate(135deg);  /* Chrome, firefox */
+	-webkit-transform: rotate(135deg); /* Safari */
+	-ms-transform: rotate(135deg); /* IE -9 */
+	-o-transform: rotate(135deg); /* Opera */
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+} 
+
+.rotate_and_bgcolor_change{
+	width: 100px;
+	height: 100px;
+	margin: 20px 20px;
+	background-color: teal;
+}
+.rotate_and_bgcolor_change:hover{
+	transform: rotate(135deg);  /* Chrome, firefox */
+	-webkit-transform: rotate(135deg); /* Safari */
+	-ms-transform: rotate(135deg); /* IE -9 */
+	-o-transform: rotate(135deg); /* Opera */
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+	background-color: red;
+} 
+
+.scale{
+	width: 100px;
+	height: 100px;
+	margin: 20px 20px;
+	background-color: teal;
+}
+.scale:hover{
+	transform: scale(1.5,1.5);  /* Chrome, firefox */
+	-webkit-transform: scale(1.5,1.5); /* Safari */
+	-ms-transform: scale(1.5,1.5);/* IE -9 */
+	-o-transform: scale(1.5,1.5); /* Opera */
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+} 
