@@ -53,3 +53,22 @@
 	-ms-transition: all 2s;
 	-o-transition: all 2s;
 } 
+
+.scale_and_bgcolor_change{
+	width: 100px;
+	height: 100px;
+	margin: 20px 20px;
+	background-color: teal;
+}
+.scale_and_bgcolor_change:hover{
+	transform: scale(1.5,1.5);  /* Chrome, firefox */
+	-webkit-transform: scale(1.5,1.5); /* Safari */
+	-ms-transform: scale(1.5,1.5);/* IE -9 */
+	-o-transform: scale(1.5,1.5); /* Opera */
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+    background-color: orange;
+
+}
